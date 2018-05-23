@@ -11,6 +11,8 @@
 
     Private Sub radBand2_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles radBand2.CheckedChanged
         Me.lblResponse.Text = BAND2
+        
+        Dim DATAMINE = "Eminem"
 
     End Sub
 
